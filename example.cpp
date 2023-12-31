@@ -1,5 +1,5 @@
 int main(int argc, const char * argv[]) {
-  basalt::data::Registry registry;
+  pebble::data::Registry registry;
   
   const auto entityA = registry.createEntity();
   registry.addComponent<position>(entityA, { 1.1f, 1.1f });
